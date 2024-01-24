@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    
+        <title>Encriptador de text - Alura Challenge</title>
+        
+    </head>
+    <body>
+
+        <main>
+            <div class="input_textarea">
+                <textarea id="text_input" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+
+            <div class="botones">
+                <button onclick="encTexto();">Encriptar</button> <button onclick="decTexto();">Desencriptar</button>
+            </div>
+
+            <div id="resultado">
+                <p id="resultado_p">Resultado aqui</p>
+
+                <button onclick="onCopy();">Copy</button>
+            </div>
+        </main>
+
+        <script src="app.js" defer></script>
+    </body>
+    
+</html>
